@@ -23,3 +23,5 @@ Generate a new ssh key to connect to your Git
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
+Github Projek für ein Maskcrnn Netz
+https://github.com/deeepwin/lego-cnn/tree/7be13a797ecdd7453765b68436590a15cbdf0926
