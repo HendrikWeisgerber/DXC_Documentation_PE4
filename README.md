@@ -15,5 +15,11 @@ How to install Git
 2. sudo apt install git -y
 3. git --version
 
+Adjust Username 
+1. git config --global user.email "you@example.com"
+2. git config --global user.name "Your Name"
+
 Generate a new ssh key to connect to your Git
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
