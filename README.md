@@ -25,3 +25,42 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 Github Projek für ein Maskcrnn Netz
 https://github.com/deeepwin/lego-cnn/tree/7be13a797ecdd7453765b68436590a15cbdf0926
+
+install python 
+https://phoenixnap.com/kb/how-to-install-python-3-ubuntu
+
+Install Anaconda 
+https://www.youtube.com/watch?v=9Uy00NhbG6w
+
+Download dataset from
+https://www.kaggle.com/marwin1665/images6?select=images
+
+change into the Git repository 
+1. pip install --upgrade pip
+2. conda create --name maskrcnn python=3.5.5 
+3. conda activate maskrcnn 
+4. conda install GraphViz
+5. pip install -r requirements.txt
+6. pip install pydot
+7. merge dataset with repository in /datasets/lego/train and /datasets/lego/val
+8. python train_lego_locally.py
+
+install python, tensorflow and jupyter extension in code to add a kernel in .ipynn files
+
+
+To monitor your GPU
+nvidia-smi -l 1
+
+
+Might proof right
+find out your versions of CUDA and cuDNN
+https://www.tensorflow.org/install/source#linux
+
+Download Cuda (for this projekt cuda 10
+https://developer.nvidia.com/cuda-toolkit-archive
+
+Download cuDNN (Need to have/ create an account with nvidia)
+https://developer.nvidia.com/cudnn 
+
+
+
