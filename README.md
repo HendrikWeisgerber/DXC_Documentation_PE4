@@ -47,6 +47,16 @@ change into the Git repository
 
 install python, tensorflow and jupyter extension in code to add a kernel in .ipynn files
 
+Find out your GPUs
+lspci -nnk | grep -i VGA -A2
+	01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GP107GLM [Quadro P1000 Mobile] [10de:1cbb] (rev a1)
+	Subsystem: Hewlett-Packard Company Device [103c:842c]
+	Kernel modules: nvidiafb, nouveau
+
+The version of the kernel your system is running 
+uname -r
+5.4.0-87-generic
+
 
 To monitor your GPU
 nvidia-smi -l 1
@@ -56,8 +66,13 @@ Might proof right
 find out your versions of CUDA and cuDNN
 https://www.tensorflow.org/install/source#linux
 
-Download Cuda (for this projekt cuda 10
-https://developer.nvidia.com/cuda-toolkit-archive
+Download Cuda (for this projekt cuda 10)
+1. https://developer.nvidia.com/cuda-toolkit-archive
+2. Installation Guide: 
+	youtube: https://www.youtube.com/watch?v=TgGm27_kroI
+	Nvidia documentation: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
+
+
 
 Download cuDNN (Need to have/ create an account with nvidia)
 https://developer.nvidia.com/cudnn 
