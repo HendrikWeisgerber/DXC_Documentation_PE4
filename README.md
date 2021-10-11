@@ -1,5 +1,7 @@
 # DXC_Documentation_PE4
 
+Untick the Option of secure boot in the BIOS to allow third party drives easier installation. Not Mandatory
+
 How to install Chrome 
 1. wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 2. sudo apt install ./google-chrome-stable_current_amd64.deb
