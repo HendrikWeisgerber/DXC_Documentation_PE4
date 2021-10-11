@@ -2,7 +2,7 @@
 
 echo "franka-DXC" | sudo -S apt install python-pip
 #pip install --upgrade pip
-conda create --name maskrcnn python=3.5.5
+conda create --name maskrcnn python=3.5.5 -y
 conda activate maskrcnn
 pip install --upgrade pip
 conda install GraphViz
