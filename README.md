@@ -84,6 +84,7 @@ find out your versions of CUDA and cuDNN
 https://www.tensorflow.org/install/source#linux
 
 Download Cuda (for this projekt cuda 10)
+1. In Order to Install Cuda you need the right nvidia driver 
 1. https://developer.nvidia.com/cuda-toolkit-archive
 2. Installation Guide: 
 	youtube: https://www.youtube.com/watch?v=TgGm27_kroI
