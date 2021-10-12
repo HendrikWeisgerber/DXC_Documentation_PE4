@@ -1,6 +1,21 @@
 # DXC_Documentation_PE4
 
-Untick the Option of secure boot in the BIOS to allow third party drives easier installation. Not Mandatory
+## To Download and execute the installation script: 
+1. Change directory where you want to Download the file: cd Downloads
+2. wget https://github.com/HendrikWeisgerber/DXC_Documentation_PE4/blob/main/installation.sh?raw=true
+3. chmod +x installation.sh\?raw\=true 
+4. ./installation.sh\?raw\=true 
+
+# What will be installed/ happen:
+1. Google Chrome
+2. Visual studio Code
+3. Git
+4. Python
+5. Anaconda
+6. Create virtuel envirement (maskrcnn)
+7. Download and exeents.txt and from the Github Projekt which we are working with 
+
+Untick the Option of secure boot in the BIOS to allow third party drives easier installation. 
 
 How to install Chrome 
 1. wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
