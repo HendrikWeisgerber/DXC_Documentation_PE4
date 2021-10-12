@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+echo "franka-DXC" | sudo -S apt-get update
 echo "###########################################Installing Chrome"
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 echo "franka-DXC" | sudo -S apt install ./google-chrome-stable_current_amd64.deb -y
@@ -30,7 +30,7 @@ bash Anaconda3-2021.05-Linux-x86_64.sh
 #cd ~
 #cd Dokumente
 
-bash 
+exec bash 
 
 #sudo apt install xterm -y
 #wget https://github.com/HendrikWeisgerber/DXC_Documentation_PE4/blob/main/script2.sh?raw=true
@@ -42,6 +42,8 @@ bash
 echo "franka-DXC" | sudo -S apt install python-pip
 pip install --upgrade pip
 conda create --name maskrcnn python=3.5.5 -y
+conda init bash
+exec bash
 conda activate maskrcnn
 pip install --upgrade pip
 conda install GraphViz
