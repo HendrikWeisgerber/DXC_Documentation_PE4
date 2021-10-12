@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 echo "franka-DXC" | sudo -S apt install python-pip
 #pip install --upgrade pip
 conda create --name maskrcnn python=3.5.5 -y
