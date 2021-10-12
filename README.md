@@ -1,6 +1,6 @@
 # DXC_Documentation_PE4
 
-## To Download and execute the installation script: 
+# To Download and execute the installation script: 
 1. Change directory where you want to Download the file: cd Downloads
 2. wget https://github.com/HendrikWeisgerber/DXC_Documentation_PE4/blob/main/installation.sh?raw=true
 3. chmod +x installation.sh\?raw\=true 
@@ -13,9 +13,10 @@
 4. Python
 5. Anaconda
 6. Create virtuel envirement (maskrcnn)
-7. Download and exeents.txt and from the Github Projekt which we are working with 
+7. Download and execute requirements.txt from the Github Projekt which we are working with https://github.com/deeepwin/lego-cnn/tree/7be13a797ecdd7453765b68436590a15cbdf0926
 
-Untick the Option of secure boot in the BIOS to allow third party drives easier installation. 
+
+# If you dont want to use the script:
 
 How to install Chrome 
 1. wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -64,36 +65,10 @@ change into the Git repository
 
 install python, tensorflow and jupyter extension in code to add a kernel in .ipynn files
 
-Find out your GPUs
-lspci -nnk | grep -i VGA -A2
-	01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GP107GLM [Quadro P1000 Mobile] [10de:1cbb] (rev a1)
-	Subsystem: Hewlett-Packard Company Device [103c:842c]
-	Kernel modules: nvidiafb, nouveau
-
-sudo lshw -c video
-  *-display                 
-       Beschreibung: VGA compatible controller
-       Produkt: GP107GLM [Quadro P1000 Mobile]
-       Hersteller: NVIDIA Corporation
-       Physische ID: 0
-       Bus-Informationen: pci@0000:01:00.0
-       Version: a1
-       Breite: 64 bits
-       Takt: 33MHz
-       Fähigkeiten: pm msi pciexpress vga_controller bus_master cap_list rom
-       Konfiguration: driver=nouveau latency=0
-       Ressourcen: irq:159 memory:e8000000-e8ffffff memory:a0000000-afffffff memory:b0000000-b1ffffff ioport:4000(Größe=128) memory:e9080000-e90fffff
 
 
 
 
-The version of the kernel your system is running 
-uname -r
-5.4.0-87-generic
-
-
-To monitor your GPU
-nvidia-smi -l 1
 
 
 Might proof right
