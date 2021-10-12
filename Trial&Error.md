@@ -17,3 +17,7 @@ Some troubelshooting solution and way to install nvidia driver
 
 Installation instruction
 1. https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/
+
+
+youtube video that does it all
+https://www.youtube.com/watch?v=GljujCLixzE
