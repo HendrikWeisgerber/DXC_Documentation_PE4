@@ -21,21 +21,27 @@ sudo apt install python3.8 -y
 python3 --version
 
 echo "#########################################################################################Installing Anaconda"
-#cd ..
-#cd /Download vermutlich überflüssig
 sudo apt install curl -y
 wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 sha256sum Anaconda3-2021.05-Linux-x86_64.sh
 bash Anaconda3-2021.05-Linux-x86_64.sh
-#cd ~
-#cd Dokumente
+conda init bash
+wget https://github.com/HendrikWeisgerber/DXC_Documentation_PE4/blob/main/script2.sh?raw=true
+mv "script2.sh?raw=true" "script2.sh"
+sudo chmod +x script2.sh 
+echo "
 
+
+
+you can now start the second script with: ./script2.sh
+
+
+
+"
 exec bash 
 
 #sudo apt install xterm -y
-#wget https://github.com/HendrikWeisgerber/DXC_Documentation_PE4/blob/main/script2.sh?raw=true
-#mv "script2.sh?raw=true" "script2.sh"
-#chmod +x script2.sh 
+
 #xterm -hold -e ./script2.sh
 
 
