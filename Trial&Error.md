@@ -2,6 +2,9 @@ how to disable nouveau
  1. https://askubuntu.com/questions/841876/how-to-disable-nouveau-kernel-driver
  2. Check if its still running https://askubuntu.com/questions/271613/am-i-using-the-nouveau-driver-or-the-proprietary-nvidia-driver
 
+dibable nvidiafb
+https://wiki.debian.org/KernelModuleBlacklisting
+
 how to check which driver & Autoinstall comand 
 1. https://askubuntu.com/questions/1258904/how-do-i-know-which-nvidia-driver-i-need
 
