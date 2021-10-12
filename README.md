@@ -15,6 +15,13 @@
 6. Create virtuel envirement (maskrcnn)
 7. Download and execute requirements.txt from the Github Projekt which we are working with https://github.com/deeepwin/lego-cnn/tree/7be13a797ecdd7453765b68436590a15cbdf0926
 
+# What you still need to do:
+1. set up a ssh key for git and clone the repo above. 
+2. Download Dataset from https://www.kaggle.com/marwin1665/images6?select=images
+3. merge dataset with repository in /datasets/lego/train and /datasets/lego/val
+4. install python, tensorflow and jupyter extension in code to add a kernel in .ipynn files
+5. install Teams
+
 
 # If you dont want to use the script:
 
@@ -61,7 +68,7 @@ change into the Git repository
 5. pip install -r requirements.txt
 6. pip install pydot
 7. merge dataset with repository in /datasets/lego/train and /datasets/lego/val
-8. python train_lego_locally.py
+9. python train_lego_locally.py
 
 install python, tensorflow and jupyter extension in code to add a kernel in .ipynn files
 
