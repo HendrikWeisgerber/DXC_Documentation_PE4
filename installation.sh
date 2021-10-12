@@ -1,32 +1,32 @@
 #!/bin/bash
 
 
-#echo "###########################################Installing Chrome"
-#wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-#echo "franka-DXC" | sudo -S apt install ./google-chrome-stable_current_amd64.deb -y
+echo "###########################################Installing Chrome"
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+echo "franka-DXC" | sudo -S apt install ./google-chrome-stable_current_amd64.deb -y
 
-#echo "##########################################Installing Code"
-#sudo snap install --classic code
+echo "##########################################Installing Code"
+sudo snap install --classic code
 
-#echo "#########################################Installing Git"
-#sudo apt update 
-#sudo apt install git -y
-#git --version
-#echo "###########################################You still need to create an ssh key, thus follow the Documentation"
+echo "#########################################Installing Git"
+sudo apt update 
+sudo apt install git -y
+git --version
+echo "###########################################You still need to create an ssh key, thus follow the Documentation"
 
-#echo "##########################################Installing Python"
-#sudo apt install software-properties-common -y
-#sudo apt update
-#sudo apt install python3.8 -y
-#python3 --version
+echo "##########################################Installing Python"
+sudo apt install software-properties-common -y
+sudo apt update
+sudo apt install python3.8 -y
+python3 --version
 
-#echo "#########################################################################################Installing Anaconda"
+echo "#########################################################################################Installing Anaconda"
 #cd ..
 #cd /Download vermutlich überflüssig
-#sudo apt install curl -y
-#wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
-#sha256sum Anaconda3-2021.05-Linux-x86_64.sh
-#bash Anaconda3-2021.05-Linux-x86_64.sh
+sudo apt install curl -y
+wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+sha256sum Anaconda3-2021.05-Linux-x86_64.sh
+bash Anaconda3-2021.05-Linux-x86_64.sh
 #cd ~
 #cd Dokumente
 
@@ -40,7 +40,7 @@ bash
 
 
 echo "franka-DXC" | sudo -S apt install python-pip
-#pip install --upgrade pip
+pip install --upgrade pip
 conda create --name maskrcnn python=3.5.5 -y
 conda activate maskrcnn
 pip install --upgrade pip
