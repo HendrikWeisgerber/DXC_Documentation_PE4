@@ -85,9 +85,10 @@ https://www.tensorflow.org/install/source#linux
 Download Cuda (for this projekt cuda 10)
 1. In Order to Install Cuda you need the right nvidia driver 
 1. https://developer.nvidia.com/cuda-toolkit-archive
-2. Installation Guide: 
-	youtube: https://www.youtube.com/watch?v=TgGm27_kroI
-	Nvidia documentation: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
+2. i choose this on: https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=runfilelocal
+3. choose runfile local and enter command shown below Download option 
+
+	
 
 
 
