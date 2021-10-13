@@ -13,5 +13,7 @@ echo "getting the requirements file from https://github.com/deeepwin/lego-cnn/tr
 wget https://github.com/deeepwin/lego-cnn/blob/7be13a797ecdd7453765b68436590a15cbdf0926/requirements.txt?raw=true
 mv "requirements.txt?raw=true" "requirements.txt"
 pip install -r requirements.txt 
+pip uninstall tensorflow
+pip install tensorflow-gpu==1.14.0
 pip install pydot
 
