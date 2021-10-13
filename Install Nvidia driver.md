@@ -40,5 +40,14 @@ uname -r
 To monitor your GPU
 nvidia-smi -l 1
 
+## The following steps should be executet with in yout virtual enviroment (maskrcnn)
+# Cuda
+Check which one you need: https://www.tensorflow.org/install/source#linux
+To check wich versions there are through conda
+conda search cudatoolkit
+To install: 
+conda install cudatoolkit==10.0.130
 
-
+# Cudnn
+conda search cudnn
+conda install cudnn==7.6.5
