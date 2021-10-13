@@ -66,9 +66,11 @@ change into the Git repository
 3. conda activate maskrcnn 
 4. conda install GraphViz
 5. pip install -r requirements.txt
-6. pip install pydot
-7. merge dataset with repository in /datasets/lego/train and /datasets/lego/val
-9. python train_lego_locally.py
+6. pip uninstall tensorflow
+7. pip install tensorflow-gpu==1.14.0
+8. pip install pydot
+9. merge dataset with repository in /datasets/lego/train and /datasets/lego/val
+10. python train_lego_locally.py
 
 install python, tensorflow and jupyter extension in code to add a kernel in .ipynn files
 activate autosafe :D
