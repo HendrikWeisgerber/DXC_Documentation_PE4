@@ -51,4 +51,7 @@ conda install cudatoolkit==10.0.130
 # Cudnn
 Log in here and Download runtimlib developerlib and codesample + user guide cudnn 7.4.2 Ubuntu 18.04
 https://developer.nvidia.com/rdp/cudnn-archive
-conda install cudnn==7.6.5
+
+# Step by Step tutorial for the right version for cuda & cudnn 
+https://gist.github.com/matheustguimaraes/43e0b65aa534db4df2918f835b9b361d
+!!!!!!!!!!Important, dont follow the driver installation instructions though
