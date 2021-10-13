@@ -71,7 +71,7 @@ change into the Git repository
 9. python train_lego_locally.py
 
 install python, tensorflow and jupyter extension in code to add a kernel in .ipynn files
-
+activate autosafe :D
 
 
 
