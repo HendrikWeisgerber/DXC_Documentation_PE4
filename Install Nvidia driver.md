@@ -39,3 +39,6 @@ uname -r
 
 To monitor your GPU
 nvidia-smi -l 1
+
+
+
