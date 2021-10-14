@@ -34,6 +34,8 @@ sudo snap install --classic code
 
 How to install teams 
 https://www.microsoft.com/en-gb/microsoft-teams/download-app
+sudo apt install ./teams_1.4.00.26453_amd64.deb
+
 
 How to install Git
 1. sudo apt update
