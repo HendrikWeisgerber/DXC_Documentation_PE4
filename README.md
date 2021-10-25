@@ -82,7 +82,7 @@ activate autosafe :D
 
 
 
-Might proof right
+Check here to see which version go together
 find out your versions of CUDA and cuDNN
 https://www.tensorflow.org/install/source#linux
 
